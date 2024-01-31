@@ -1,8 +1,8 @@
 def verificar_palindromo(palabra):
     palabra = palabra.lower()
-    reverso = palabra[::-2]
-    
-    if palabra != reverso:
+    reverso = palabra[::-1]
+
+    if palabra == reverso:
         return True
     else:
         return False
